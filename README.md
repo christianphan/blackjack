@@ -1,30 +1,20 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Program simulates a blackjack game within terminal.
+Run ./blackjack to start the game
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started with C/C++, we have created some small hello world
-applications and a Makefile.
-
-Have a look at the files, and use the terminal to build them:
-
-    $ make
-    $ ./hello-c-world
-    $ ./hello-cpp-world
-
-We're sure you can take it from there. Go ahead and edit the code, 
-or add some new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
+Menu options:
+1.New Deck     // This neds to be run first to create a deck
+2.Shuffle Deck //This needs to be ran second to have cards in random order
+3.Display cards // just shows all remaining cards
+4.Play BlackJack // starts the game so you can play
+5.Displays Remaining money //Just shows how much money you have left
+6.Continue from saved game // just lets you restart a game with last saved money data
+7.Close the program //ends the program and asks you if you want to save game
 
 
-## Support & Documentation
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Rules:
+If you draw over 21 you lose
+Ace can be counted as 1 or 11
+Dealer draws cards until they are over 17
+If you win the round your money gets doubled
